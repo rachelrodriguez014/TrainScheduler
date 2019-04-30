@@ -1,0 +1,19 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+.jumbotron {
+    background-color: #3A5AD8;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#spacer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #3A5AD8;
+    color: whitesmoke;
+}
