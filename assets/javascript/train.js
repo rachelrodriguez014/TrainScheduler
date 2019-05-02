@@ -67,6 +67,24 @@ $(document).ready(function(){
         console.log(trainTime);
         console.log(trainFreq);
 
+// create variables to hold calculated values of next train and minutes away
+
+
+
+// create variable for new row with new info entered through submit
+        var newRow = $("<tr>").append(
+            $("#name").text(trainName),
+            $("#destination").text(trainDestination),
+            $("#frequency").text(trainFreq),
+            $("#nextArrival").text(),
+            ("#minsAway").text()
+        );
+        
+// Append the new rown to the table
+        $("#trainTable").append(newRow);
+
+
+
     });
 
 
